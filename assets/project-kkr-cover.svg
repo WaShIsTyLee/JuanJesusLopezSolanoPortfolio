@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="64" x2="1184" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#151313"/>
+      <stop offset="1" stop-color="#090808"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(314 234) rotate(32.8) scale(468 336)">
+      <stop stop-color="#9A2825" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#9A2825" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleAccent" x1="120" y1="388" x2="520" y2="388" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B7322E"/>
+      <stop offset="1" stop-color="#EB5751"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" rx="34" fill="url(#bg)"/>
+  <rect width="1280" height="720" rx="34" fill="url(#glowA)"/>
+
+  <circle cx="148" cy="140" r="6" fill="#C43D38"/>
+  <text x="166" y="147" fill="#F5F0E9" font-family="Manrope, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2.8">WEB OFICIAL</text>
+
+  <text x="118" y="308" fill="#F6F1EA" font-family="Manrope, Arial, sans-serif" font-size="122" font-weight="800" letter-spacing="-5">KKR</text>
+  <text x="118" y="418" fill="url(#titleAccent)" font-family="Manrope, Arial, sans-serif" font-size="122" font-weight="800" letter-spacing="-5">TATTOO</text>
+  <text x="122" y="480" fill="#D3CBC1" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4.5">ESTUDIO DE TATUAJES Y DISEÑO VISUAL</text>
+
+  <rect x="118" y="548" width="112" height="50" rx="25" fill="#191616" stroke="#34302D"/>
+  <text x="148" y="581" fill="#F3EEE6" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="800">HTML</text>
+  <rect x="246" y="548" width="98" height="50" rx="25" fill="#191616" stroke="#34302D"/>
+  <text x="279" y="581" fill="#F3EEE6" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="800">CSS</text>
+  <rect x="360" y="548" width="174" height="50" rx="25" fill="#191616" stroke="#34302D"/>
+  <text x="392" y="581" fill="#F3EEE6" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="800">JavaScript</text>
+</svg>

@@ -1,0 +1,945 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Juan Jesús López Solano | Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio de Juan Jesús López Solano, Full Stack Developer con experiencia en Angular, Java, C#, Python y bases de datos relacionales."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body data-theme="dark">
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="#inicio" aria-label="Inicio">WS</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav" aria-label="Principal">
+          <a href="#experiencia" data-nav-link="experiencia">Experiencia</a>
+          <a href="#proyectos" data-nav-link="proyectos">Proyectos</a>
+          <a href="#formacion" data-nav-link="formacion">Formación</a>
+          <a href="#sobre-mi" data-nav-link="sobre-mi">Sobre mí</a>
+          <a href="#stack" data-nav-link="stack">Stack</a>
+        </nav>
+
+        <div class="nav-socials">
+          <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Cambiar tema"
+            title="Cambiar tema"
+          >
+            <svg
+              class="theme-toggle-sun"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M12 4V2"></path>
+              <path d="M12 22v-2"></path>
+              <path d="m17.66 6.34 1.41-1.41"></path>
+              <path d="m4.93 19.07 1.41-1.41"></path>
+              <path d="M20 12h2"></path>
+              <path d="M2 12h2"></path>
+              <path d="m17.66 17.66 1.41 1.41"></path>
+              <path d="m4.93 4.93 1.41 1.41"></path>
+              <circle cx="12" cy="12" r="4"></circle>
+            </svg>
+            <svg
+              class="theme-toggle-moon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                d="M21 12.79A9 9 0 1 1 11.21 3c0 .34 0 .67.05 1A7 7 0 0 0 20 12.74c.33.05.66.05 1 .05Z"
+              ></path>
+            </svg>
+          </button>
+          <a
+            class="social-link"
+            href="https://github.com/WaShIsTyLee"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2C6.48 2 2 6.59 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.58 2.36 1.12 2.94.85.09-.67.35-1.12.63-1.37-2.22-.26-4.56-1.15-4.56-5.12 0-1.13.39-2.05 1.03-2.78-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.06A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.34 2.75-1.06 2.75-1.06.55 1.42.2 2.47.1 2.73.64.73 1.03 1.65 1.03 2.78 0 3.98-2.35 4.86-4.59 5.11.36.32.68.95.68 1.92 0 1.39-.01 2.5-.01 2.84 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.59 17.52 2 12 2Z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/juan-j%C3%A9sus-l%C3%B3pez-solano-5b0133232/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M6.94 8.5A1.56 1.56 0 1 0 6.94 5.38a1.56 1.56 0 0 0 0 3.12ZM5.59 9.68h2.7V18.5h-2.7V9.68Zm4.39 0h2.59v1.2h.04c.36-.68 1.24-1.4 2.56-1.4 2.74 0 3.25 1.86 3.25 4.28v4.74h-2.7v-4.2c0-1-.02-2.3-1.36-2.3-1.36 0-1.57 1.1-1.57 2.22v4.28h-2.7V9.68Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero container">
+        <div class="hero-copy">
+          <h1>Juan Jesús</h1>
+          <h1>
+            <span class="hero-intro">Hola, soy</span>
+            <span class="hero-name">Juan Jes&#250;s</span>
+          </h1>
+          <h2>Full Stack Developer</h2>
+          <p>
+            ¡Hola 🫡! Bienvenido a mi portfolio personal. Soy desarrollador
+            junior, he terminado mis estudios de DAM y DAW y estoy buscando mi
+            primera oportunidad en el sector. Durante mi formación aprendí a
+            programar usando Java como base, pero también he trabajado con C#,
+            Python, Angular, Spring Boot, MySQL y PostgreSQL en proyectos
+            reales.
+          </p>
+
+          <div class="hero-actions">
+            <a
+              class="button button-primary"
+              href="https://www.linkedin.com/in/juan-j%C3%A9sus-l%C3%B3pez-solano-5b0133232/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M6.94 8.5A1.56 1.56 0 1 0 6.94 5.38a1.56 1.56 0 0 0 0 3.12ZM5.59 9.68h2.7V18.5h-2.7V9.68Zm4.39 0h2.59v1.2h.04c.36-.68 1.24-1.4 2.56-1.4 2.74 0 3.25 1.86 3.25 4.28v4.74h-2.7v-4.2c0-1-.02-2.3-1.36-2.3-1.36 0-1.57 1.1-1.57 2.22v4.28h-2.7V9.68Z"
+                ></path>
+              </svg>
+              LinkedIn
+            </a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/WaShIsTyLee"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2C6.48 2 2 6.59 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.58 2.36 1.12 2.94.85.09-.67.35-1.12.63-1.37-2.22-.26-4.56-1.15-4.56-5.12 0-1.13.39-2.05 1.03-2.78-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.06A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.34 2.75-1.06 2.75-1.06.55 1.42.2 2.47.1 2.73.64.73 1.03 1.65 1.03 2.78 0 3.98-2.35 4.86-4.59 5.11.36.32.68.95.68 1.92 0 1.39-.01 2.5-.01 2.84 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.59 17.52 2 12 2Z"
+                ></path>
+              </svg>
+              GitHub
+            </a>
+            <a
+              class="button button-ghost"
+              href="assets/CV_JuanJes%C3%BAsL%C3%B3pezSolano.pdf"
+              download="Juan-Jesús-López-Solano-CV.pdf"
+            >
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.29a1 1 0 1 1 1.4 1.42l-4 3.99a1 1 0 0 1-1.4 0l-4-3.99a1 1 0 0 1 1.4-1.42L11 12.59V4a1 1 0 0 1 1-1Z"
+                ></path>
+                <path
+                  d="M5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"
+                ></path>
+              </svg>
+              Descargar CV
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="Foto de perfil de Juan">
+          <div class="avatar-shell">
+            <img
+              class="avatar-image"
+              src="assets/image.png"
+              alt="Foto de perfil de Juan Jesús López Solano"
+            />
+          </div>
+          <div class="status-badge" aria-label="Estado profesional actual">
+            <span class="status-dot"></span>
+            <span>En búsqueda de empleo</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="experiencia">
+        <div class="section-heading">
+          <span class="section-kicker">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M9 7V6a3 3 0 0 1 3-3h0a3 3 0 0 1 3 3v1"></path>
+              <path
+                d="M3 9a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9Z"
+              ></path>
+              <path d="M3 13a20 20 0 0 0 18 0"></path>
+            </svg>
+            <span>Experiencia</span>
+          </span>
+        </div>
+
+        <div class="experience-timeline">
+          <article class="experience-item experience-item-current">
+            <span class="experience-node" aria-hidden="true"></span>
+            <div class="experience-card">
+              <div class="experience-top">
+                <div class="experience-date-row">
+                  <span class="experience-date">Feb 2026 - Actualidad</span>
+                  <span class="experience-state">Actualidad</span>
+                </div>
+                <span class="experience-location">Córdoba</span>
+              </div>
+              <h3>Desarrollador en C# y Angular</h3>
+              <h4>Sepalo Software</h4>
+              <p>
+                Desarrollo y mantenimiento de aplicaciones web con Angular y
+                .NET, integraci&#243;n de Bizum mediante Redsys y trabajo
+                colaborativo con buenas pr&#225;cticas y control de versiones.
+              </p>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <span class="experience-node" aria-hidden="true"></span>
+            <div class="experience-card">
+              <div class="experience-top">
+                <div class="experience-date-row">
+                  <span class="experience-date">Nov 2025 - Dic 2025</span>
+                </div>
+                <span class="experience-location">Córdoba</span>
+              </div>
+              <h3>Desarrollador Web Freelance</h3>
+              <h4>KKR-Tattoo</h4>
+              <p>
+                Creación y despliegue completo de una web para estudio de
+                tatuajes, enfocada en portfolio visual y captación de clientes
+                con HTML, CSS y JavaScript.
+              </p>
+            </div>
+          </article>
+
+          <article class="experience-item">
+            <span class="experience-node" aria-hidden="true"></span>
+            <div class="experience-card">
+              <div class="experience-top">
+                <div class="experience-date-row">
+                  <span class="experience-date">Mar 2025 - Jun 2025</span>
+                </div>
+                <span class="experience-location">Córdoba</span>
+              </div>
+              <h3>Desarrollador Python y C#</h3>
+              <h4>Josmar Inda Group</h4>
+              <p>
+                Participación en soluciones de software con C#, personalización
+                de Odoo con Python y PostgreSQL y trabajo en equipo con Git para
+                el seguimiento del código.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="proyectos">
+        <div class="section-heading">
+          <span class="section-kicker">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M8 8 3 12l5 4"></path>
+              <path d="m16 8 5 4-5 4"></path>
+              <path d="m14 4-4 16"></path>
+            </svg>
+            <span>Proyectos</span>
+          </span>
+        </div>
+
+        <div class="project-list">
+          <article class="project-row">
+            <div class="project-preview project-preview-portfolio">
+              <span class="project-preview-badge">Nuevo</span>
+              <div class="project-preview-copy">
+                <span class="project-preview-label">Portfolio</span>
+                <strong>Juan Jesús</strong>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <div class="project-heading">
+                <h3>Portfolio Personal</h3>
+                <span class="project-version">v1.0</span>
+              </div>
+              <div class="stack project-stack">
+                <span class="tech-pill tech-html"
+                  ><i class="devicon-html5-plain colored" aria-hidden="true"></i
+                  >HTML</span
+                >
+                <span class="tech-pill tech-css"
+                  ><i class="devicon-css3-plain colored" aria-hidden="true"></i
+                  >CSS</span
+                >
+                <span class="tech-pill tech-responsive"
+                  ><i aria-hidden="true"></i>Responsive</span
+                >
+              </div>
+              <p>
+                Portfolio personal inspirado en una referencia moderna, adaptado
+                a mi perfil como desarrollador full stack y enfocado en una
+                presencia profesional clara.
+              </p>
+              <a class="project-link" href="#inicio">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                  ></path>
+                  <path
+                    d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                  ></path>
+                </svg>
+                Preview
+              </a>
+            </div>
+          </article>
+
+          <article class="project-row">
+            <div class="project-preview project-preview-tattoo">
+              <img
+                class="project-preview-image"
+                src="assets/project-kkr-cover.svg"
+                alt="Portada del proyecto KKR Tattoo con la imagen de Juan Jesús"
+              />
+            </div>
+
+            <div class="project-content">
+              <h3>Web para KKR-Tattoo</h3>
+              <div class="stack project-stack">
+                <span class="tech-pill tech-html"
+                  ><i class="devicon-html5-plain colored" aria-hidden="true"></i
+                  >HTML</span
+                >
+                <span class="tech-pill tech-css"
+                  ><i class="devicon-css3-plain colored" aria-hidden="true"></i
+                  >CSS</span
+                >
+                <span class="tech-pill tech-js"
+                  ><i
+                    class="devicon-javascript-plain colored"
+                    aria-hidden="true"
+                  ></i
+                  >JavaScript</span
+                >
+              </div>
+              <p>
+                Desarrollo y despliegue de una web para un estudio de tatuajes,
+                dando protagonismo al portfolio artístico y a la captación de
+                clientes.
+              </p>
+              <a class="project-link" href="https://kkr-tattoo.com/">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"
+                  ></path>
+                  <path
+                    d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"
+                  ></path>
+                </svg>
+                Preview
+              </a>
+            </div>
+          </article>
+
+          <article class="project-row">
+            <div class="project-preview project-preview-bizum">
+              <img
+                class="project-preview-image"
+                src="assets/project-redsys-cover.svg"
+                alt="Portada del proyecto Bizum Redsys"
+              />
+            </div>
+
+            <div class="project-content">
+              <h3>Integración Bizum</h3>
+              <div class="stack project-stack">
+                <span class="tech-pill tech-angular"
+                  ><i
+                    class="devicon-angularjs-plain colored"
+                    aria-hidden="true"
+                  ></i
+                  >Angular</span
+                >
+                <span class="tech-pill tech-csharp"
+                  ><i
+                    class="devicon-csharp-plain colored"
+                    aria-hidden="true"
+                  ></i
+                  >C#</span
+                >
+                <span class="tech-pill tech-redsys"
+                  ><i aria-hidden="true"></i>Redsys</span
+                >
+              </div>
+              <p>
+                Implementación de la pasarela de pago Bizum en entorno
+                empresarial, trabajando la integración técnica y el
+                mantenimiento de la aplicación web.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="formacion">
+        <div class="section-heading">
+          <span class="section-kicker">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m3 8 9-5 9 5-9 5-9-5Z"></path>
+              <path d="M7 10.5v4.5c0 1.7 2.2 3 5 3s5-1.3 5-3v-4.5"></path>
+            </svg>
+            <span>Formación</span>
+          </span>
+        </div>
+
+        <div class="education-timeline">
+          <article class="education-item education-item-current">
+            <span class="education-node" aria-hidden="true"></span>
+            <div class="education-card">
+              <div class="education-top"> 
+                <span class="education-period">2025 - Actualidad</span>
+                <span class="education-location">Fern&#225;n N&#250;&#241;ez, C&#243;rdoba</span>
+              </div>
+              <h3>Desarrollo de Aplicaciones Web (DAW)</h3>
+              <h4>CFGS · IES Francisco de Los Rios</h4>
+              <p>
+                Ciclo formativo de grado superior centrado en desarrollo web,
+                servicios, bases de datos y construcción de aplicaciones
+                orientadas a entornos reales.
+              </p>
+            </div>
+          </article>
+
+          <article class="education-item">
+            <span class="education-node" aria-hidden="true"></span>
+            <div class="education-card">
+              <div class="education-top">
+                <span class="education-period">2023 - 2025</span>
+                <span class="education-location">Fernán Núñez, Córdoba</span>
+              </div>
+              <h3>Desarrollo de Aplicaciones Multiplataforma (DAM)</h3>
+              <h4>CFGS · IES Francisco de Los Rios</h4>
+              <p>
+                Formación de grado superior orientada al diseño y desarrollo de
+                aplicaciones para distintas plataformas, reforzando lógica,
+                programación y arquitectura de software.
+              </p>
+            </div>
+          </article>
+
+          <article class="education-item">
+            <span class="education-node" aria-hidden="true"></span>
+            <div class="education-card">
+              <div class="education-top">
+                <span class="education-period">2021 - 2023</span>
+                <span class="education-location">Fernán Núñez, Córdoba</span>
+              </div>
+              <h3>Bachillerato de Ciencias</h3>
+              <h4>IES Francisco de Los Rios</h4>
+              <p>
+                Etapa académica orientada a consolidar base científica,
+                analítica y hábitos de estudio antes de la especialización en
+                desarrollo de software.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section about-section container" id="sobre-mi">
+        <div class="section-heading">
+          <span class="section-kicker">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"></path>
+              <path d="M4 20a8 8 0 0 1 16 0"></path>
+            </svg>
+            <span>Sobre mí</span>
+          </span>
+        </div>
+
+        <div class="about-card">
+          <div class="about-copy">
+            <p>
+              Hola, soy Juan Jes&#250;s L&#243;pez Solano,
+              <strong>Full Stack Developer</strong> con base técnica en
+              desarrollo web, enfocado en crear soluciones digitales útiles,
+              escalables y con una interfaz cuidada.
+            </p>
+            <p>
+              Cuento con experiencia en
+              <strong>Angular, Java, C#, Python, MySQL y PostgreSQL</strong>,
+              participando en proyectos reales, integraciones de pago,
+              personalización de ERP y desarrollo frontend y backend.
+            </p>
+            <p>
+              Mi enfoque combina aprendizaje continuo, resolución de problemas y
+              ganas de seguir creciendo en equipos donde pueda aportar valor y
+              evolucionar profesionalmente.
+            </p>
+          </div>
+
+          <aside
+            class="about-visual"
+            aria-label="Espacio reservado para imagen de perfil"
+          >
+            <div class="about-photo-frame">
+              <img
+                class="about-photo-image"
+                src="assets/image2.png"
+                alt="Imagen de perfil de Juan Jesús López Solano"
+              />
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section container" id="stack">
+        <div class="section-heading">
+          <span class="section-kicker">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M7 8 3 12l4 4"></path>
+              <path d="m17 8 4 4-4 4"></path>
+              <path d="M14 4 10 20"></path>
+            </svg>
+            <span>Stack</span>
+          </span>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-tech-card stack-tech-java">
+            <i
+              class="stack-tech-icon devicon-java-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Java</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-typescript">
+            <i
+              class="stack-tech-icon devicon-typescript-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>TypeScript</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-csharp">
+            <i
+              class="stack-tech-icon devicon-csharp-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>C#</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-php">
+            <i
+              class="stack-tech-icon devicon-php-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>PHP</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-html">
+            <i
+              class="stack-tech-icon devicon-html5-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>HTML5</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-css">
+            <i
+              class="stack-tech-icon devicon-css3-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>CSS3</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-xml">
+            <i
+              class="stack-tech-icon devicon-xml-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>XML</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-spring">
+            <i
+              class="stack-tech-icon devicon-spring-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Spring Boot</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-angular">
+            <i
+              class="stack-tech-icon devicon-angularjs-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Angular</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-dotnet">
+            <i
+              class="stack-tech-icon devicon-dotnetcore-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>.NET</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-react">
+            <i
+              class="stack-tech-icon devicon-react-original colored"
+              aria-hidden="true"
+            ></i>
+            <h3>React</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-laravel">
+            <i
+              class="stack-tech-icon devicon-laravel-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Laravel</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-hibernate">
+            <i
+              class="stack-tech-icon devicon-hibernate-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Hibernate</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-ionic">
+            <i
+              class="stack-tech-icon devicon-ionic-original colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Ionic</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-mysql">
+            <i
+              class="stack-tech-icon devicon-mysql-original colored"
+              aria-hidden="true"
+            ></i>
+            <h3>MySQL</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-sqlserver">
+            <i
+              class="stack-tech-icon devicon-microsoftsqlserver-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>SQL Server</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-git">
+            <i
+              class="stack-tech-icon devicon-git-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Git</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-github">
+            <i
+              class="stack-tech-icon devicon-github-original colored"
+              aria-hidden="true"
+            ></i>
+            <h3>GitHub</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-sourcetree">
+            <i
+              class="stack-tech-icon devicon-sourcetree-original colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Sourcetree</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-aws">
+            <i
+              class="stack-tech-icon devicon-amazonwebservices-plain-wordmark colored"
+              aria-hidden="true"
+            ></i>
+            <h3>AWS</h3>
+            <p>Intermedio</p>
+          </article>
+          <article class="stack-tech-card stack-tech-python">
+            <i
+              class="stack-tech-icon devicon-python-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Python</h3>
+            <p>Avanzado</p>
+          </article>
+          <article class="stack-tech-card stack-tech-odoo">
+            <i
+              class="stack-tech-icon devicon-odoo-plain colored"
+              aria-hidden="true"
+            ></i>
+            <h3>Odoo</h3>
+            <p>Intermedio</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container" id="contacto">
+        <div class="section-heading">
+          <span class="section-kicker">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16"></path>
+              <path d="M4 12h16"></path>
+              <path d="M4 18h16"></path>
+            </svg>
+            <span>Contacto</span>
+          </span>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-copy">
+            <span class="contact-eyebrow">&#191;Hablamos?</span>
+            <h2>Ponte en contacto conmigo</h2>
+            <p>
+              Si quieres hablar de tecnolog&#237;a, comentar una oportunidad o
+              simplemente quieres saludar, escríbeme directamente y te respondo
+              cuanto antes.
+            </p>
+
+            <div class="contact-details">
+              <a
+                class="contact-detail contact-detail-primary"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=lopezsolanojuanjesus@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <strong>lopezsolanojuanjesus@gmail.com</strong>
+              </a>
+              <a class="contact-detail" href="tel:+34687985680">
+                <strong>+34 687 985 680</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer container">
+      <p>&#169; 2026 Juan Jes&#250;s L&#243;pez Solano</p>
+      <div class="footer-links">
+        <a
+          class="footer-icon-link"
+          href="https://www.linkedin.com/in/juan-j%C3%A9sus-l%C3%B3pez-solano-5b0133232/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="LinkedIn"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M6.94 8.5A1.56 1.56 0 1 0 6.94 5.38a1.56 1.56 0 0 0 0 3.12ZM5.59 9.68h2.7V18.5h-2.7V9.68Zm4.39 0h2.59v1.2h.04c.36-.68 1.24-1.4 2.56-1.4 2.74 0 3.25 1.86 3.25 4.28v4.74h-2.7v-4.2c0-1-.02-2.3-1.36-2.3-1.36 0-1.57 1.1-1.57 2.22v4.28h-2.7V9.68Z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          class="footer-icon-link"
+          href="https://github.com/WaShIsTyLee"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 2C6.48 2 2 6.59 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.58 2.36 1.12 2.94.85.09-.67.35-1.12.63-1.37-2.22-.26-4.56-1.15-4.56-5.12 0-1.13.39-2.05 1.03-2.78-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.06A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.51.35 1.91-1.34 2.75-1.06 2.75-1.06.55 1.42.2 2.47.1 2.73.64.73 1.03 1.65 1.03 2.78 0 3.98-2.35 4.86-4.59 5.11.36.32.68.95.68 1.92 0 1.39-.01 2.5-.01 2.84 0 .27.18.6.69.49A10.26 10.26 0 0 0 22 12.25C22 6.59 17.52 2 12 2Z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          class="footer-icon-link"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=lopezsolanojuanjesus@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Correo"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M4 6h16v12H4z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            ></path>
+            <path
+              d="m4 8 8 6 8-6"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            ></path>
+          </svg>
+        </a>
+        <a
+          class="footer-icon-link"
+          href="assets/CV_JuanJes%C3%BAsL%C3%B3pezSolano.pdf"
+          download="Juan-Jesús-López-Solano-CV.pdf"
+          aria-label="Descargar CV"
+        >
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M12 3a1 1 0 0 1 1 1v8.59l2.3-2.29a1 1 0 1 1 1.4 1.42l-4 3.99a1 1 0 0 1-1.4 0l-4-3.99a1 1 0 1 1 1.4-1.42L11 12.59V4a1 1 0 0 1 1-1Z"
+            ></path>
+            <path
+              d="M5 19a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </footer>
+    <a
+      class="whatsapp-float"
+      href="whatsapp://send?phone=34687985680&text=Hola%20Juan%2C%20he%20visto%20tu%20portfolio%20y%20quiero%20hablar%20contigo."
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Hablar por WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path
+          d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.47 0 .12 5.35.12 11.94c0 2.1.55 4.15 1.6 5.95L0 24l6.28-1.65a11.88 11.88 0 0 0 5.78 1.48h.01c6.58 0 11.93-5.35 11.93-11.94 0-3.19-1.24-6.19-3.48-8.41ZM12.07 21.8h-.01a9.86 9.86 0 0 1-5.02-1.37l-.36-.21-3.73.98 1-3.64-.24-.37a9.85 9.85 0 0 1-1.52-5.25c0-5.44 4.43-9.87 9.88-9.87 2.63 0 5.1 1.02 6.96 2.89a9.8 9.8 0 0 1 2.9 6.98c0 5.44-4.44 9.86-9.89 9.86Zm5.41-7.37c-.3-.15-1.77-.88-2.05-.98-.27-.1-.47-.15-.67.15-.2.3-.77.98-.95 1.18-.17.2-.35.22-.65.07-.3-.15-1.26-.47-2.39-1.5-.88-.79-1.48-1.77-1.65-2.07-.17-.3-.02-.46.13-.6.13-.13.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.5s1.08 2.9 1.23 3.1c.15.2 2.12 3.24 5.14 4.54.72.31 1.28.5 1.72.64.72.23 1.37.2 1.88.12.57-.08 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35Z"
+        ></path>
+      </svg>
+    </a>
+    <script>
+      const siteHeader = document.querySelector(".site-header");
+      const navLinks = document.querySelectorAll("[data-nav-link]");
+      const themeToggle = document.querySelector(".theme-toggle");
+      const navToggle = document.querySelector(".nav-toggle");
+      const siteNav = document.querySelector(".site-nav");
+      const pageBody = document.body;
+      const trackedSections = [
+        "experiencia",
+        "proyectos",
+        "formacion",
+        "sobre-mi",
+        "stack",
+      ]
+        .map((id) => document.getElementById(id))
+        .filter(Boolean);
+
+      const applyTheme = (theme) => {
+        pageBody.dataset.theme = theme;
+        localStorage.setItem("portfolio-theme", theme);
+      };
+
+      const storedTheme = localStorage.getItem("portfolio-theme");
+      if (storedTheme === "light" || storedTheme === "dark") {
+        applyTheme(storedTheme);
+      }
+
+      const closeMobileNav = () => {
+        if (!navToggle || !siteNav) return;
+        navToggle.setAttribute("aria-expanded", "false");
+        siteNav.classList.remove("is-open");
+      };
+
+      const toggleMobileNav = () => {
+        if (!navToggle || !siteNav) return;
+        const isOpen = navToggle.getAttribute("aria-expanded") === "true";
+        navToggle.setAttribute("aria-expanded", String(!isOpen));
+        siteNav.classList.toggle("is-open", !isOpen);
+      };
+
+      if (themeToggle) {
+        themeToggle.addEventListener("click", () => {
+          const nextTheme =
+            pageBody.dataset.theme === "light" ? "dark" : "light";
+          applyTheme(nextTheme);
+        });
+      }
+
+      if (navToggle) {
+        navToggle.addEventListener("click", toggleMobileNav);
+      }
+
+      const setActiveLink = (id) => {
+        navLinks.forEach((link) => {
+          link.classList.toggle("is-active", link.dataset.navLink === id);
+        });
+      };
+
+      const getHeaderOffset = () => {
+        if (!siteHeader) return 96;
+        return siteHeader.offsetHeight + 28;
+      };
+
+      const syncActiveSection = () => {
+        if (trackedSections.length === 0) return;
+
+        const marker = window.scrollY + getHeaderOffset();
+        let currentSectionId = trackedSections[0].id;
+
+        trackedSections.forEach((section) => {
+          if (section.offsetTop <= marker) {
+            currentSectionId = section.id;
+          }
+        });
+
+        setActiveLink(currentSectionId);
+      };
+
+      navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+          const targetId = link.dataset.navLink;
+          if (targetId) {
+            setActiveLink(targetId);
+          }
+          closeMobileNav();
+        });
+      });
+
+      const syncHeaderScrollState = () => {
+        if (!siteHeader) return;
+        siteHeader.classList.toggle("is-scrolled", window.scrollY > 8);
+      };
+
+      window.addEventListener("scroll", () => {
+        syncHeaderScrollState();
+        syncActiveSection();
+      });
+      window.addEventListener("resize", () => {
+        syncActiveSection();
+        if (window.innerWidth > 980) {
+          closeMobileNav();
+        }
+      });
+      syncHeaderScrollState();
+      syncActiveSection();
+    </script>
+  </body>
+</html>

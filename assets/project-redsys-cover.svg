@@ -1,0 +1,33 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="118" y1="86" x2="1168" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#131618"/>
+      <stop offset="1" stop-color="#0A0C0E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(936 210) rotate(140.8) scale(348 278)">
+      <stop stop-color="#9A2A27" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#9A2A27" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="118" y1="372" x2="538" y2="372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C33934"/>
+      <stop offset="1" stop-color="#F26B64"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="720" rx="34" fill="url(#bg)"/>
+  <rect width="1280" height="720" rx="34" fill="url(#glow)"/>
+
+  <circle cx="148" cy="138" r="6" fill="#C43D38"/>
+  <text x="166" y="145" fill="#F3EEE8" font-family="Manrope, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="2.4">INTEGRACIÓN</text>
+
+  <text x="118" y="310" fill="#F8F3EC" font-family="Manrope, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="-4">BIZUM</text>
+  <text x="118" y="412" fill="url(#accent)" font-family="Manrope, Arial, sans-serif" font-size="112" font-weight="800" letter-spacing="-4">REDSYS</text>
+  <text x="122" y="474" fill="#CFC7BD" font-family="Manrope, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">PASARELA DE PAGO PARA ENTORNO EMPRESARIAL</text>
+
+  <rect x="118" y="548" width="144" height="50" rx="25" fill="#171B1E" stroke="#32383E"/>
+  <text x="152" y="581" fill="#F3EEE8" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="800">Angular</text>
+  <rect x="278" y="548" width="96" height="50" rx="25" fill="#171B1E" stroke="#32383E"/>
+  <text x="313" y="581" fill="#F3EEE8" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="800">C#</text>
+  <rect x="390" y="548" width="132" height="50" rx="25" fill="#171B1E" stroke="#32383E"/>
+  <text x="424" y="581" fill="#F3EEE8" font-family="Manrope, Arial, sans-serif" font-size="22" font-weight="800">Redsys</text>
+</svg>
