@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portada LinkedIn | Juan Jesús López Solano</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              portfolio: {
+                bg: "#2f2f2f",
+                panel: "#242424",
+                line: "#4a2726",
+                accent: "#b9302e",
+                strong: "#ff7a73",
+                text: "#cdcdcd",
+                soft: "#a7a7a7",
+              },
+            },
+            fontFamily: {
+              sans: ["Manrope", "ui-sans-serif", "system-ui", "sans-serif"],
+            },
+            boxShadow: {
+              glow: "0 0 0 1px rgba(185, 48, 46, 0.18), 0 24px 80px rgba(0, 0, 0, 0.42)",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background:
+          radial-gradient(circle at top left, rgba(185, 48, 46, 0.16), transparent 26%),
+          radial-gradient(circle at 85% 18%, rgba(255, 122, 115, 0.08), transparent 20%),
+          linear-gradient(180deg, #0f0d0d 0%, #090808 100%);
+      }
+    </style>
+  </head>
+  <body class="min-h-screen overflow-x-hidden font-sans text-portfolio-text">
+    <main class="flex min-h-screen items-center justify-center px-4 py-8">
+      <section
+        class="relative w-full max-w-[1200px] overflow-hidden rounded-[30px] border border-white/5 bg-[#0d0d0d] shadow-glow"
+      >
+        <div class="pointer-events-none absolute inset-0">
+          <div class="absolute -left-24 top-[-5rem] h-72 w-72 rounded-full bg-portfolio-accent/20 blur-[100px]"></div>
+          <div class="absolute right-0 top-0 h-52 w-52 rounded-full bg-portfolio-strong/10 blur-[80px]"></div>
+          <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-portfolio-accent/30 to-transparent"></div>
+        </div>
+
+        <div class="grid min-h-[627px] grid-cols-12">
+          <aside class="col-span-3 flex flex-col border-r border-white/5 bg-black/20 px-8 py-8">
+            <div class="mb-10 flex items-center gap-2">
+              <span class="h-2.5 w-2.5 rounded-full bg-[#ff5f57]"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-[#febc2e]"></span>
+              <span class="h-2.5 w-2.5 rounded-full bg-[#28c840]"></span>
+            </div>
+
+            <div>
+              <p class="text-[2rem] font-extrabold tracking-tight text-portfolio-accent">
+                JUAN
+              </p>
+              <p class="mt-1 text-sm uppercase tracking-[0.38em] text-portfolio-soft/70">
+                Portfolio web
+              </p>
+            </div>
+
+            <nav class="mt-14 space-y-3">
+              <div class="flex items-center gap-3 text-sm text-portfolio-soft">
+                <span class="text-portfolio-accent">[ ]</span>
+                <span>Vista general</span>
+              </div>
+              <div
+                class="flex items-center gap-3 rounded-xl border border-portfolio-accent/20 bg-gradient-to-r from-portfolio-accent/20 to-transparent px-4 py-3 text-sm font-semibold text-white"
+              >
+                <span class="text-portfolio-strong">/&gt;</span>
+                <span>Portada LinkedIn</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-portfolio-soft">
+                <span class="text-portfolio-accent">{} </span>
+                <span>Stack y proyectos</span>
+              </div>
+            </nav>
+
+            <div class="mt-auto rounded-2xl border border-white/5 bg-white/[0.03] p-4">
+              <div class="flex items-center gap-3">
+                <div
+                  class="flex h-11 w-11 items-center justify-center rounded-full bg-gradient-to-br from-portfolio-accent to-portfolio-strong text-sm font-extrabold text-white"
+                >
+                  JJ
+                </div>
+                <div>
+                  <p class="font-semibold text-white">Juan Jesús</p>
+                  <p class="text-xs uppercase tracking-[0.22em] text-portfolio-soft/70">
+                    Full Stack Developer
+                  </p>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <div class="col-span-9 flex flex-col px-10 py-8">
+            <div class="flex justify-end">
+              <div
+                class="rounded-full border border-emerald-500/20 bg-emerald-500/10 px-4 py-2 text-[11px] font-bold uppercase tracking-[0.28em] text-emerald-300"
+              >
+                System online
+              </div>
+            </div>
+
+            <div class="mt-14 max-w-3xl">
+              <p class="text-[11px] font-bold uppercase tracking-[0.45em] text-portfolio-soft/50">
+                Nuevo portfolio personal
+              </p>
+              <h1 class="mt-4 text-6xl font-extrabold leading-[0.95] tracking-[-0.05em] text-white">
+                Desarrollador
+                <span class="block bg-gradient-to-r from-portfolio-accent to-portfolio-strong bg-clip-text text-transparent">
+                  FullStack Web
+                </span>
+              </h1>
+              <p class="mt-6 max-w-2xl text-lg leading-relaxed text-portfolio-soft">
+                Una portada inspirada en tu referencia, pero adaptada a los colores y a la
+                personalidad visual de tu portfolio: sobria, técnica y con acento rojo.
+              </p>
+            </div>
+
+            <div class="mt-auto grid grid-cols-12 gap-5 pb-2">
+              <article
+                class="col-span-4 rounded-2xl border border-white/5 bg-white/[0.03] p-5 backdrop-blur"
+              >
+                <p class="text-[10px] font-bold uppercase tracking-[0.35em] text-portfolio-soft/45">
+                  Estado actual
+                </p>
+                <p class="mt-4 text-sm uppercase tracking-[0.28em] text-portfolio-soft/60">
+                  Perfil
+                </p>
+                <p class="mt-1 text-2xl font-extrabold text-white">Full Stack</p>
+                <p class="mt-4 text-sm uppercase tracking-[0.28em] text-portfolio-soft/60">
+                  Stack dominante
+                </p>
+                <p class="mt-1 font-semibold text-white">Angular, C#, Java, Python</p>
+              </article>
+
+              <article
+                class="col-span-8 rounded-2xl border border-white/5 bg-white/[0.03] p-5 backdrop-blur"
+              >
+                <p class="text-[10px] font-bold uppercase tracking-[0.35em] text-portfolio-soft/45">
+                  System logs
+                </p>
+                <div class="mt-4 space-y-3 font-mono text-sm text-portfolio-soft">
+                  <p>
+                    <span class="text-portfolio-soft/55">[09.21]</span>
+                    <span class="ml-3 text-white/90">&gt; init profile="FullStack Web"</span>
+                    <span class="text-emerald-300"> OK</span>
+                  </p>
+                  <p>
+                    <span class="text-portfolio-soft/55">[09.22]</span>
+                    <span class="ml-3 text-white/90">&gt; load_modules: [Frontend, Backend]</span>
+                  </p>
+                  <p>
+                    <span class="text-portfolio-soft/55">[09.23]</span>
+                    <span class="ml-3 text-white/90">&gt; status:</span>
+                    <span class="ml-2 text-portfolio-strong">"Portfolio listo para compartir"</span>
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
